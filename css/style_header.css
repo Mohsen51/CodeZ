@@ -1,0 +1,100 @@
+header{
+    background: #f19600;
+    padding: 0;
+}
+
+header h1{
+    margin: 0.7% 1.5% 1% 1.5%;
+    text-indent:-1000px;
+    background: url(../view/images/logo.png) no-repeat 100%;
+    float: left;
+    width: 175px;
+    height: 35px;
+}
+
+header nav{
+    float: right;
+    margin-right: 2%;
+    font-size: 80%;
+}
+
+header nav li{
+    list-style-type: none;
+    float: left;
+    margin-left: 45px;
+}
+
+header nav li:nth-child(1){
+    margin-left: 0px;
+}
+
+header nav li a{
+    text-decoration: none;
+}
+
+header:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+@media screen and (max-width:834px){
+    header nav{
+        float:none;
+    }
+
+    header h1.logo{
+        float:none;
+        margin:10px auto;    
+    }
+    header nav li{
+        margin-left:0;
+        width:33.33%;
+        text-align:center;
+    }
+}
+
+@media screen and (max-width: 641px){   
+    header h1.logo{
+        float: left;
+        margin-left:5px;
+        margin-top:3px;
+    }
+    
+    .burger-nav{
+        display:block;
+        height:40px;
+        background: url(images/burger.png) no-repeat 100% center;
+        background-size: 50px 40px;
+        cursor: pointer;
+        margin-top:7px;
+        width:10%;
+        margin-left:88%;
+    }   
+    
+
+    header nav ul{
+        overflow: hidden;
+        //height: 0;
+        width:90%;
+        margin:auto 5%;
+    }
+
+    header nav ul.open{
+        height: auto;
+    }
+
+    header nav ul li{
+        float: center;
+        text-align: center;
+        width: 100%;
+        margin:0;
+    }
+
+    header nav ul li a{
+        padding: 5px;
+        border-bottom: 1px solid #404040;
+        display: block;
+        margin: 0;
+    }
+}

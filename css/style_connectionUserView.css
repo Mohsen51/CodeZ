@@ -1,0 +1,51 @@
+#banner{
+	height: 650px;
+}
+
+#connection{
+	margin-top : 50px;
+	margin-left: 475px;
+	font-size-adjust: 0.5;
+	color : #ffffff;
+}
+
+#Titre{
+	margin-top : 150px;
+	margin-left: 550px;
+	font-size-adjust: 1;
+}
+
+#pseudo{
+	margin-left : 27.5px;
+}
+
+#cup{
+	margin-left : 500px;
+	height : 300px;
+	text-align : right;
+}
+
+#TitreToken{
+	margin-top : 150px;
+	margin-left: 475px;
+	font-size-adjust: 1;
+}
+
+#cup2{
+	margin-left : 994px;
+	height : 300px;
+	width : 250px;
+}
+
+#TitreTrees{
+	margin : 75px;
+	font-size-adjust: 0.75;
+	text-align : center;
+	color : #ffffff;
+}
+
+#cup3{
+	background-image : url(../view/images/cup.png) no-repeat 100%;
+	background-position: right;
+	display: block;
+}
